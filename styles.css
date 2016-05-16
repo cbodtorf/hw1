@@ -16,6 +16,10 @@ h2 {
     color: white;
 }
 
+p {
+  color: white;
+}
+
  /* HEADER */
 
 header {
@@ -42,6 +46,27 @@ header {
 h2:hover {
   color: aquamarine;
 }
+
+div img:hover {
+    opacity: 0.8;
+}
+
+ul {
+  position: absolute;
+  margin: -50px 50px 50px 450px;
+}
+
+li {
+  float: right;
+  margin-left: 15px;
+  list-style: none;;
+}
+
+.about {
+  margin-left: 100px;
+}
+
+/*MEDIA QUERIES*/
 
 @media (min-width: 700px) {
   div img {
