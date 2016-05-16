@@ -1,3 +1,62 @@
+* {
+
+}
+
+/* MAIN STYLES */
+
 body {
-  background-color: orange;
+  background-color: tomato;
+}
+
+ /* HEADER */
+
+header {
+  height: 100px;
+  margin: auto;
+  background-color: pink;
+  border-bottom: solid 5px;
+}
+
+header h1 {
+  display: inline-block;
+  border: solid 10px;
+  font-size: 70px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  width: 350px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  padding-left: 5px;
+}
+
+/* COLUMN */
+.main {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  margin: auto;
+  padding: 8px;
 }
